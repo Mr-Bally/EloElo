@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EloElo", "EloElo\EloElo.csproj", "{528942DE-3C0B-4A4C-B60A-D634BBC74EB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EloElo", "EloElo\EloElo.csproj", "{528942DE-3C0B-4A4C-B60A-D634BBC74EB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EloEloTests", "EloEloTests\EloEloTests.csproj", "{63B4A4F1-EE6E-4E1A-8EC5-F1FB52815890}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{528942DE-3C0B-4A4C-B60A-D634BBC74EB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{528942DE-3C0B-4A4C-B60A-D634BBC74EB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{528942DE-3C0B-4A4C-B60A-D634BBC74EB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63B4A4F1-EE6E-4E1A-8EC5-F1FB52815890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63B4A4F1-EE6E-4E1A-8EC5-F1FB52815890}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63B4A4F1-EE6E-4E1A-8EC5-F1FB52815890}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63B4A4F1-EE6E-4E1A-8EC5-F1FB52815890}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
