@@ -10,7 +10,7 @@ namespace EloElo.Common
         
         public decimal OldRating { get; private set; }
 
-        public decimal RatingChange => OldRating - NewRating;
+        public decimal RatingChange => NewRating - OldRating;
 
         internal RatingResultParticipant(Participant participant, decimal newRating, decimal oldRating)
         {

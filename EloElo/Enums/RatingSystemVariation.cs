@@ -2,7 +2,6 @@
 {
     public enum RatingSystemVariation
     {
-        EloWithoutKRating,
         EloWithNoviceKRating,
         EloWithIntermediateKRating,
         EloWithMasterKRating

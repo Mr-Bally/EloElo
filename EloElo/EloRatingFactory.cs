@@ -14,7 +14,7 @@ namespace EloElo
             CheckRating(participantOneRating, true);
             CheckRating(participantTwoRating, false);
 
-            return new EloWithoutKRating(participantOneRating, participantTwoRating);
+            return new EloRatingService(participantOneRating, participantTwoRating, variation);
         }
 
         private static bool CheckRating(decimal rating, bool isParticipantOne)
