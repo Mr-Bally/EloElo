@@ -5,8 +5,7 @@ namespace EloElo.Interfaces
 {
     public interface IRatingSystem
     {
-        decimal GetExpectedScore(Participant participant);
-        ParticipantRating GetParticipantRating(Participant participant);
-        RatingResult GetResultRating(ResultType result);
+        (decimal participantOneExpectedScore, decimal participantTwoExpectedScore) GetExpectedScore(decimal participantOneRating, decimal participantTwoRating);
+        RatingResult GetResultRating(decimal participantOneRating, decimal participantTwoRating, ResultType result);
     }
 }
