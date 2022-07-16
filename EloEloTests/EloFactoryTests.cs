@@ -10,7 +10,6 @@ namespace EloEloTests
         [Fact]
         public void GetRatingSystem_ReturnsRatingSystem_ForValidInput()
         {
-            var rating = 1000;
             var ratingSystem = EloRatingFactory.GetRatingSystem(RatingSystemVariation.EloWithNoviceKRating);
 
             Assert.True(ratingSystem is IRatingSystem);
