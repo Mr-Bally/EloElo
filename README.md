@@ -21,7 +21,7 @@ var ratingResult = eloRatingSystem.GetResultRating(2000, 1800, ResultType.Partic
 
 Console.WriteLine($"P1 had an old rating of {ratingResult.ParticipantOne.OldRating}");
 Console.WriteLine($"P1 now has a new rating of {ratingResult.ParticipantOne.NewRating}");
-Console.WriteLine($"P2 difference between old and new rating is {ratingResult.ParticipantOne.RatingChange}");
+Console.WriteLine($"P1 difference between old and new rating is {ratingResult.ParticipantOne.RatingChange}");
 ```
 
 ## TODO
